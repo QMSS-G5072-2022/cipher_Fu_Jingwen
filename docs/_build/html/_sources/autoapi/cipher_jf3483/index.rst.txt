@@ -1,0 +1,23 @@
+:py:mod:`cipher_jf3483`
+=======================
+
+.. py:module:: cipher_jf3483
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_jf3483/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

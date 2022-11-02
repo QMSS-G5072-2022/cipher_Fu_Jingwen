@@ -1,0 +1,40 @@
+:py:mod:`cipher_jf3483.cipher_jf3483`
+=====================================
+
+.. py:module:: cipher_jf3483.cipher_jf3483
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_jf3483.cipher_jf3483.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   for decrypt or encrypt the combination of some centain alphabets
+
+   input:
+   -------------
+   text is a string, contains alphabet from aA-zZ
+   shift is interger
+   encryt is boolean; ture-encryt false-decrypt
+
+   output:
+   ------------
+   the output is a string accoridng to what inputs are
+
+   .. rubric:: Examples
+
+   >>> from cipher import cipher
+   >>> cipher('QMSS', shift = 1)
+   'RNTT'
+
+

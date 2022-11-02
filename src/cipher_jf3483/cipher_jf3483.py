@@ -17,6 +17,8 @@ def cipher(text, shift, encrypt=True):
     >>> from cipher import cipher
     >>> cipher('QMSS', shift = 1)
     'RNTT'
+    >>> cipher('QMSS', shift = -1)
+    'PLRR'
     """
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''

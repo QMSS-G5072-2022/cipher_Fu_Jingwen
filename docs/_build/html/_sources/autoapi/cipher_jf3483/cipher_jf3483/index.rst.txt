@@ -36,5 +36,7 @@ Functions
    >>> from cipher import cipher
    >>> cipher('QMSS', shift = 1)
    'RNTT'
+   >>> cipher('QMSS', shift = -1)
+   'PLRR'
 
 
